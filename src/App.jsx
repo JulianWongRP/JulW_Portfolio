@@ -1,10 +1,10 @@
 import './app.scss';
 import NavBar from './components/Navbar/navbar';
 import Hero from './components/hero/hero';
-import Parallex from './components/parallex/parallex';
+import Parallex from './components/parallex/Parallex';
 import About from './components/about/AboutMe';
 import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/contact';
+import Contact from './components/contact/Contact';
 
 
 
