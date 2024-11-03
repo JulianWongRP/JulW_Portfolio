@@ -1,0 +1,103 @@
+.hero {
+    height: calc(100vh - 100px); 
+    /* Sets the height of the hero section to be the full viewport height minus 100px (which is  the height of the navbar). 
+    This ensures the hero section takes up the remaining vertical space after accounting for the navbar. */
+  
+    background-image: url(https://i.pinimg.com/originals/2e/0d/84/2e0d842575ee5586bcfea75e42b16fe4.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 0;
+   
+    /* Applies a linear gradient background, starting with a dark color (#0c0c1d) at the top and transitioning to another dark color (#111132) at the bottom. 
+    The gradient direction is 180 degrees, meaning it goes from top to bottom. */
+  
+    overflow: hidden;
+    /* Ensures that any child elements that exceed the boundaries of the `.hero` section will not be visible. */
+  
+    position: relative;
+    /* Sets the position of the `.hero` container to relative. This allows absolutely positioned child elements (like `.imageContainer`) to be positioned relative to the `.hero` container itself. */
+  
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: 0 auto;
+        
+
+
+
+        .textContainer{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            
+            h2{
+                font-size: 30px;
+                color: rebeccapurple;
+                letter-spacing: 10px;
+            }
+
+            h1{
+                font-size: 88px;
+            }
+
+            .buttons{
+                
+                button{
+                    padding: 1rem;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color:white;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+
+            }
+
+            img{
+                width: 50px;
+                
+            }
+        }
+
+
+        
+    }
+
+
+    .imageContainer {
+      height: 100%;
+      /* Sets the height of the `.imageContainer` to 100% of the height of the parent `.hero` container. */
+  
+      position: absolute;
+      /* Positions the `.imageContainer` absolutely within the `.hero` container, based on the `.hero`'s `relative` positioning. */
+      /* absolute positioning, an element can be placed anywhere on a page*/
+  
+      top: 0;
+      /* Aligns the top of the `.imageContainer` to the top of the `.hero` container. */
+  
+      right: -200px;
+      /* Aligns the right edge of the `.imageContainer` to the right edge of the `.hero` container. */
+
+
+    }
+
+
+    .slidingTextContainer{
+        position: absolute; //absolutely inside of hero//
+        font-size: 50vh;
+        bottom: -120px;
+        display: flex;
+        white-space: nowrap;
+        opacity: 0.2;
+        max-width: 100rem;
+        font-weight: bold;
+        
+        
+        
+    }
+  }
+  
