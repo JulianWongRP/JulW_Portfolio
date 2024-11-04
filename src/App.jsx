@@ -5,11 +5,13 @@ import Parallex from './components/parallex/Parallex';
 import About from './components/about/AboutMe';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
+import Cursor from './components/cursor/Cursor';
 
 
 
 const App = () => {
   return <div>
+    <Cursor/>
     <section id="Homepage">
       <NavBar/>
       <Hero/>
@@ -21,7 +23,7 @@ const App = () => {
     <section id="Contact">
       <Contact/>
     </section>
-
+    
   
   </div>;
 };
