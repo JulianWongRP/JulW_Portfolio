@@ -5,19 +5,19 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const items = [
     {
         id: 1,
-        title: "React Commerce",
+        title: "Node.JS Mini Project",
         img: "https://images.pexels.com/photos/12419737/pexels-photo-12419737.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sapiente laudantium quaerat vel quo ullam corrupti distinctio, reiciendis vitae beatae esse fuga facere ut commodi recusandae rem nostrum tempora deleniti."
     },
     {
         id: 2,
-        title: "Next.js Commerce",
+        title: "Blender Project: Night Drive",
         img: "https://images.pexels.com/photos/29074352/pexels-photo-29074352/free-photo-of-aerial-view-of-offshore-wind-farm-with-turbines.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sapiente laudantium quaerat vel quo ullam corrupti distinctio, reiciendis vitae beatae esse fuga facere ut commodi recusandae rem nostrum tempora deleniti."
     },
     {
         id: 3,
-        title: "Vanilla JS App",
+        title: "Unity5 VR Game: EscapeRooms",
         img: "https://images.pexels.com/photos/27920659/pexels-photo-27920659/free-photo-of-a-person-paragliding-in-the-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sapiente laudantium quaerat vel quo ullam corrupti distinctio, reiciendis vitae beatae esse fuga facere ut commodi recusandae rem nostrum tempora deleniti."
     },
@@ -50,7 +50,7 @@ const Single = ({ item }) => {
                         <img src={item.img} alt="" />
                     </div>
                     <motion.div className="textContainer" style={{y}}>
-                        <h2>{item.title}</h2>
+                        <h2 style={{color:"lightgrey", fontWeight: 600, lineHeight: 0.99}}>{item.title}</h2>
                         <p>{item.desc}</p>
                         <button>See Demo</button>
                     </motion.div>

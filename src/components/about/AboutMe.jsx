@@ -7,7 +7,7 @@ const About = () => {
   
       <div className="textContainer">
         <img src="/planetPD.png" alt="Planet Illustration" className="planetPD"/><br/><br/>
-        <span className="Hello">Hello!</span>
+        <span className="Hello">About</span>
         <span className='desc'>I am Julian Wong. I am a Singaporean and a current
         Republic Polytechnic Year 2 Student. I am also currently
         studying in the Sector of Infocomm Technology. My favourite

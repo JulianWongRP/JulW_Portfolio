@@ -1,6 +1,6 @@
 .portfolio {
     position: relative;
-    
+
 
     .progress {
         position: sticky; // Lets it stay at that position always
@@ -8,13 +8,20 @@
         left: 0;
         padding-top: 50px;
         text-align: center;
-        color: orange;
+        color: rgb(167, 107, 226);
         font-size: 36px;
+        text-shadow: 
+        0 0 3px #fff,
+        2px 0 0px #fff,
+        0 0 42px rgb(76, 0, 255);
 
+        
 
         .progressBar {
             height: 10px;
             background-color: white;
+
+
         }
     }
 
@@ -50,20 +57,24 @@
                 flex: 1; // Adjust the layout for the text container
                 display: flex;
                 flex-direction: column;
-                gap: 30px;  
-                
-                
+                gap: 30px;
 
-                h2{
+
+
+                h2 {
                     font-size: 72px;
+                    text-shadow:
+                        0 0 3px #fff,
+                        0 0 42px rgb(76, 0, 255),
+                        
                 }
-                
-                p{
+
+                p {
                     color: grey;
                     font-size: 20px;
                 }
 
-                button{
+                button {
                     background-color: orange;
                     border: none;
                     border-radius: 10px;
