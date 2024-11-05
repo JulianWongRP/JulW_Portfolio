@@ -13,18 +13,15 @@ const Parallex = ({ type }) => {
     });
 
     // Transformations for text and background elements
-    const yText = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
-    const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "150%"]);
+    const yText = useTransform(scrollYProgress, [0, 1], ["0%", "600%"]);
+    const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "350%"]);
 
     return (
         <div
             className="parallex"
             ref={ref}
             style={{
-                background:
-                    type === "about"
-                        ? "linear-gradient(180deg, #111132, #0c0c1d)"
-                        : "linear-gradient(180deg, #111132, #505064)"
+
             }}
         >
             {/* Parallax moving text */}
