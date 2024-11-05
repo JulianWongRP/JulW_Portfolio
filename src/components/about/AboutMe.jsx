@@ -6,7 +6,6 @@ const About = () => {
     <div className="aboutMe">
   
       <div className="textContainer">
-        <img src="/planetPD.png" alt="Planet Illustration" className="planetPD"/><br/><br/>
         <span className="Hello">About</span>
         <span className='desc'>I am Julian Wong. I am a Singaporean and a current
         Republic Polytechnic Year 2 Student. I am also currently
