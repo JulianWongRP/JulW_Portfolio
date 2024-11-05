@@ -20,9 +20,6 @@ const Parallex = ({ type }) => {
         <div
             className="parallex"
             ref={ref}
-            style={{
-
-            }}
         >
             {/* Parallax moving text */}
             <motion.h1 style={{ y: yText }}>
