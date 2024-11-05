@@ -5,21 +5,21 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const items = [
     {
         id: 1,
-        title: "Node.JS Mini Project",
+        title: "Node.JS Mini Workout Calender Appliaction",
         img: "https://images.pexels.com/photos/12419737/pexels-photo-12419737.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sapiente laudantium quaerat vel quo ullam corrupti distinctio, reiciendis vitae beatae esse fuga facere ut commodi recusandae rem nostrum tempora deleniti."
+        desc: "This Node.JS Mini Project is a Mini Workout Routine Calender which comprises of different components which include: Adding Workout Dates, Adding different types of Workouts, Editing & Deleting Different Routines. Using MySQL Database, There are data stored that will update based on your usage of the mini web application. "
     },
     {
         id: 2,
         title: "Blender Project: Night Drive",
         img: "https://images.pexels.com/photos/29074352/pexels-photo-29074352/free-photo-of-aerial-view-of-offshore-wind-farm-with-turbines.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sapiente laudantium quaerat vel quo ullam corrupti distinctio, reiciendis vitae beatae esse fuga facere ut commodi recusandae rem nostrum tempora deleniti."
+        desc: "This is Short Animation comprises of 3D elements from Blender Engine, using different components of Tools and Assets, I am able to create a semi-futurstic animation of a Drive towards the sunset."
     },
     {
         id: 3,
         title: "Unity5 VR Game: EscapeRooms",
         img: "https://images.pexels.com/photos/27920659/pexels-photo-27920659/free-photo-of-a-person-paragliding-in-the-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sapiente laudantium quaerat vel quo ullam corrupti distinctio, reiciendis vitae beatae esse fuga facere ut commodi recusandae rem nostrum tempora deleniti."
+        desc: "Made with Unity5, I have created a playable VR Puzzle Game. Using C#, I have coded puzzles for players to try and solve, so that they can Escape from the Rooms."
     },
     {
         id: 4,
