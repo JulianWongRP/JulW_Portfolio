@@ -77,6 +77,7 @@ const Portfolio = () => {
         stiffness: 100,
         damping: 30,
     })
+    
 
 
     return (
