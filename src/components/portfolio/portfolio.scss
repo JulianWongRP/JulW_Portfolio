@@ -41,6 +41,7 @@
             align-items: center;
             justify-content: center;
             gap: 50px;
+        
 
             .imageContainer {
                 flex: 1;
@@ -74,15 +75,11 @@
                     font-size: 20px;
                 }
 
-                button {
-                    background-color: orange;
-                    border: none;
-                    border-radius: 10px;
-                    padding: 10px;
-                    width: 200px;
-                    cursor: pointer;
-                }
+                
             }
         }
     }
+
+
+    
 }
