@@ -8,26 +8,20 @@ const items = [
     {
         id: 1,
         title: "Workout Calender Appliaction",
-        images: ["planets.png", "statueHD.png"],
+        images: ["websitehomepage.png", "workouts.png", "addroutine.png", "addworkout.png"],
         desc: "This Node.JS Mini Project is a Mini Workout Routine Calender which comprises of different components which include: Adding Workout Dates, Adding different types of Workouts, Editing & Deleting Different Routines. Using MySQL Database, There are data stored that will update based on your usage of the mini web application. "
     },
     {
         id: 2,
         title: "Blender Project: Night Drive",
-        images: [],
+        images: ["ND1.jpg", "ND2.jpg", "ND3.jpg"], 
         desc: "This is Short Animation comprises of 3D elements from Blender Engine, using different components of Tools and Assets, I am able to create a semi-futurstic animation of a Drive towards the sunset."
     },
     {
         id: 3,
         title: "Unity5 VR Game: EscapeRooms",
-        images: [],
+        images: ["ER1.png","ER2.png","ER3.png","ER4.png"],
         desc: "Made with Unity5, I have created a playable VR Puzzle Game. Using C#, I have coded puzzles for players to try and solve, so that they can Escape from the Rooms."
-    },
-    {
-        id: 4,
-        title: " Music App",
-        images: [],
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sapiente laudantium quaerat vel quo ullam corrupti distinctio, reiciendis vitae beatae esse fuga facere ut commodi recusandae rem nostrum tempora deleniti."
     },
 
 ];
@@ -51,6 +45,7 @@ const Single = ({ item }) => {
                             {item.title}
                         </h2>
                         <p>{item.desc}</p>
+                        
                     </motion.div>
                     <DemoButton images={item.images} /> {/* Pass only images */}
                     

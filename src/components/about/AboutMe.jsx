@@ -32,7 +32,7 @@ const About = () => {
         <div className="item">
           <div className="polaroid">
             <img
-              src="weight.png"
+              src="blender.jpg"
               alt="Weights"
             />
             <div className="caption">Blender</div>
@@ -40,7 +40,7 @@ const About = () => {
         </div><div className="item">
           <div className="polaroid">
             <img
-              src="weight.png"
+              src="Taekwondo.png"
               alt="Weights"
             />
             <div className="caption">Taekwondo</div>
@@ -49,7 +49,7 @@ const About = () => {
         <div className="item">
           <div className="polaroid">
             <img
-              src="weight.png"
+              src="Html5.jpg"
               alt="Weights"
             />
             <div className="caption">HTML</div>
@@ -58,7 +58,7 @@ const About = () => {
         <div className="item">
           <div className="polaroid">
             <img
-              src="weight.png"
+              src="CSS.jpg"
               alt="Weights"
             />
             <div className="caption">CSS</div>
@@ -67,7 +67,7 @@ const About = () => {
         <div className="item">
           <div className="polaroid">
             <img
-              src="weight.png"
+              src="JS.jpg"
               alt="Weights"
             />
             <div className="caption">JavaScript</div>
@@ -76,19 +76,10 @@ const About = () => {
         <div className="item">
           <div className="polaroid">
             <img
-              src="weight.png"
+              src="SQL.jpg"
               alt="Weights"
             />
             <div className="caption">MySQL</div>
-          </div>
-        </div>
-        <div className="item">
-          <div className="polaroid">
-            <img
-              src="weight.png"
-              alt="Weights"
-            />
-            <div className="caption">JavaScript</div>
           </div>
         </div>
       </div>

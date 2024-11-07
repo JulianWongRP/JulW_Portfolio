@@ -15,14 +15,13 @@ const Navbar = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}>
-          Julian Wong
+          <img src='PDlogo.png' style={{maxWidth: 150}}/>
         </motion.span>
 
         <div className="social">
-          <a href=''><img src="facebook.png" alt="" /></a>
-          <a href=''><img src="instagram.png" alt="" /></a>
-          <a href=''><img src="youtube.png" alt="" /></a>
-          <a href=''><img src="dribbble.png" alt="" /></a>
+          <a href='https://www.linkedin.com/in/jl-wg30303/'><img src="LinkedIn1.png" alt="LinkedIn"/></a>
+          <a href='https://www.instagram.com/jul_wyh/'><img src="instagram.png" alt="instagram" /></a>
+          <a href='https://www.youtube.com/@julianwong4301'><img src="youtube.png" alt="youtube" /></a>
 
         </div>
       </div>

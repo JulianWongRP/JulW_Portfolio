@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 10000; /* Ensures it appears above other elements */
+    z-index: 100; /* Ensures it appears above other elements */
 }
 
 .modal-content {
@@ -29,11 +29,18 @@
 .close-button {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: -5px;
     background: transparent;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
-    color: #333;
+    color: white;
     font-weight: bold;
+}
+
+.demo-button{
+    padding: 15px;
+    border-radius: 2rem;
+    background-color: orange;
+    cursor: pointer;
 }
