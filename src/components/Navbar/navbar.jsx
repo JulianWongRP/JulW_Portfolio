@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="social">
           <a href='https://www.linkedin.com/in/jl-wg30303/'><img src="LinkedIn1.png" alt="LinkedIn"/></a>
           <a href='https://www.instagram.com/jul_wyh/'><img src="instagram.png" alt="instagram" /></a>
-          <a href='https://www.youtube.com/@julianwong4301'><img src="youtube.png" alt="youtube" /></a>
+          <a href='https://github.com/JulianWongRP'><img src="githubs.png" alt="github" /></a>
 
         </div>
       </div>
