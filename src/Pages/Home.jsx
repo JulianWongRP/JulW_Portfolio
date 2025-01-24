@@ -8,7 +8,7 @@ import Portfolio from "../Components/Portfolio/Portfolio.jsx";
 import Contact from "../Components/Contact/Contact.jsx"
 
 
-const Home = ({ navigateTo }) => {
+const App = ({ navigateTo }) => {
     const [openProjects, setOpenProjects] = useState(false);
 
     return (
@@ -28,4 +28,4 @@ const Home = ({ navigateTo }) => {
     );
 };
 
-export default Home;
+export default App;
