@@ -35,8 +35,8 @@ const Allprojects = ({ navigateTo }) => {
         {
             id: 'id5',
             image: 'travel-list1.png',
-            title: 'Application',
-            subtitle: 'Workout Calendar',
+            title: 'Web Application',
+            subtitle: 'Travel List',
             action: () => navigateTo('id5'),
         },
 
