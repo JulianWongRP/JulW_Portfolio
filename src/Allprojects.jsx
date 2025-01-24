@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Pages/Allprojects.scss';
+import "./Allprojects.scss";
 
 const Allprojects = ({ navigateTo }) => {
     // Project data array
