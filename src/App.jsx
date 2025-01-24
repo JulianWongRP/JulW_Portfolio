@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Home from "./Pages/Home"
 import Allprojects from './Pages/Allprojects';
-import Id1 from '/Pages/IndvProj/id1';
+import Id1 from './Pages/IndvProj/id1';
 import Id2 from './Pages/IndvProj/id2'
 import Id3 from './Pages/IndvProj/id3'
 
