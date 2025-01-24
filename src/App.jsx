@@ -4,7 +4,7 @@ import Allprojects from './Pages/Allprojects';
 import Id1 from './Pages/IndvProj/id1';
 import Id2 from './Pages/IndvProj/id2'
 import Id3 from './Pages/IndvProj/id3'
-import Cursor from "./Components/cursor/Cursor"
+
 
 const App = () => {
     const [currentPage, setCurrentPage] = useState('home'); // 'home' or 'allprojects'
@@ -15,7 +15,7 @@ const App = () => {
 
     return (
         <div>
-            <Cursor/>
+            
             {currentPage === 'home' && <Home navigateTo={navigateTo} />}
             {currentPage === 'allprojects' && <Allprojects navigateTo={navigateTo} />}
             {currentPage === 'id1' && <Id1 navigateTo={navigateTo}/>}
