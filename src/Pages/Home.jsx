@@ -1,11 +1,11 @@
 import React, { useState } from "react"; // Make sure 'useState' is imported
 import "../Pages/Home.scss";
-import NavBar from "../Components/Navbars/navbar";
-import Hero from "../Components/hero/hero";
-import Parallex from "../Components/Parallex/Parallex";
-import About from "../Components/About/AboutMe";
-import Portfolio from "../Components/Portfolio/Portfolio";
-import Contact from "../Components/Contact/Contact";
+import NavBar from "../components/Navbars/navbar";
+import Hero from "../components/hero/hero";
+import Parallex from "../components/parallex/Parallex";
+import About from "../components/about/AboutMe";
+import Portfolio from "../components/portfolio/Portfolio";
+import Contact from "../components/contact/Contact";
 
 
 const Home = ({ navigateTo }) => {
