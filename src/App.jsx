@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Home from "./Pages/Home"
+import Cursor from "./components/cursor/Cursor";
 import Allprojects from './Pages/Allprojects';
 import Id1 from './Pages/IndvProj/id1';
 import Id2 from './Pages/IndvProj/id2';
@@ -16,7 +17,7 @@ const App = () => {
 
     return (
         <div>
-            
+            <Cursor/>
             {currentPage === 'home' && <Home navigateTo={navigateTo} />}
             {currentPage === 'allprojects' && <Allprojects navigateTo={navigateTo} />}
             {currentPage === 'id1' && <Id1 navigateTo={navigateTo}/>}
