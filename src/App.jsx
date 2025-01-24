@@ -1,32 +1,28 @@
-import './app.scss';
-import NavBar from './components/Navbar/navbar';
-import Hero from './components/hero/hero';
-import Parallex from './components/parallex/Parallex';
-import About from './components/about/AboutMe';
-import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/Contact';
-import Cursor from './components/cursor/Cursor';
-
-
+import React, { useState } from 'react';
+import Home from './Pages/Home';
+import Allprojects from './Pages/Allprojects';
+import Id1 from './Pages/IndvProj/id1';
+import Id2 from './Pages/IndvProj/id2'
+import Id3 from './Pages/IndvProj/id3'
+import Cursor from "../src/Components/cursor/Cursor";
 
 const App = () => {
-  return <div>
-    <Cursor/>
-    <section id="Homepage">
-      <NavBar/>
-      <Hero/>
-    </section>
-    <section id="About"><Parallex type="about"/></section>
-    <section><About/></section>
-    <section id="Portfolio"><Parallex type="portfolio"/></section>
-    <Portfolio/>
-    <section id="Contact">
-      <Contact/>
-    </section>
-    
-  
-  </div>;
+    const [currentPage, setCurrentPage] = useState('home'); // 'home' or 'allprojects'
+
+    const navigateTo = (page) => {
+        setCurrentPage(page);
+    };
+
+    return (
+        <div>
+            <Cursor />
+            {currentPage === 'home' && <Home navigateTo={navigateTo} />}
+            {currentPage === 'allprojects' && <Allprojects navigateTo={navigateTo} />}
+            {currentPage === 'id1' && <Id1 navigateTo={navigateTo}/>}
+            {currentPage === 'id2' && <Id2 navigateTo={navigateTo}/>}
+            {currentPage === 'id3' && <Id3 navigateTo={navigateTo}/>}
+        </div>
+    );
 };
 
 export default App;
-

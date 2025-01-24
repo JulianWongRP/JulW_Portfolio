@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // Ensure 'React' is imported
 import './hero.scss';
 import { motion } from 'framer-motion';
 
@@ -25,7 +25,6 @@ const textVariants = {
     },
 };
 
-
 const sliderVariants = {
     initial: {
         x: 0, // Start position is at the original horizontal position (0%)
@@ -40,8 +39,30 @@ const sliderVariants = {
     },
 };
 
+const Dropdown = ({ navigateTo }) => {
+    const handleClick = (id) => {
+        console.log(`Navigating to ${id}`);
+        navigateTo(id);
+    };
 
-const hero = () => {
+    return (
+        <div className='dropDownProject'>
+            <ul>
+                <li onClick={() => handleClick('id1')}>Night Drive - Animation</li>
+                <li onClick={() => handleClick('id2')}>Escape Room - VR Game</li>
+                <li onClick={() => handleClick('id3')}>Workout Calendar - App</li>
+                <li onClick={() => handleClick('id4')}>Placeholder</li> 
+                <li onClick={() => handleClick('id5')}>Placeholder</li>
+                <div style={{color: "black"}}>----------------------</div>
+                <li onClick={() => handleClick('allprojects')} style={{color: "orange", fontWeight: "1000", fontSize: "20px"}}>All Projects</li>
+            </ul>
+        </div>
+    );
+};
+
+
+
+const Hero = ({ openProjects, navigateTo }) => { 
     return (
         <div className='hero'>
             <div className="wrapper">
@@ -50,23 +71,26 @@ const hero = () => {
                     initial="initial"
                     animate="animate"
                 >
+                    {openProjects && <Dropdown navigateTo={navigateTo} />} {/* Pass navigateTo to Dropdown */}
                     <motion.h2 variants={textVariants}>JULIAN WONG</motion.h2>
-                    <motion.h1 variants={textVariants}>Web Developer </motion.h1>
+                    <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                     <motion.div className="buttons" variants={textVariants}>
-                        <motion.button variants={textVariants}><a href='#Portfolio'>See All Projects</a></motion.button>
+                        <motion.button variants={textVariants}><a href='#Portfolio'>Featured Works</a></motion.button>
                         <motion.button variants={textVariants}><a href="#Contact">Contact Me</a></motion.button>
                     </motion.div>
                     <motion.img src='scroll.png' alt='' variants={textVariants} animate="scrollButton" />
                 </motion.div>
             </div>
-            <motion.div className='slidingTextContainer'variants={sliderVariants} initial="initial" animate='animate'>
+            <motion.div className='slidingTextContainer' variants={sliderVariants} initial="initial" animate='animate'>
                 Student Gamer Developer
             </motion.div>
             <div className="imageContainer">
                 <img src='statueHD.png' alt="person" />
             </div>
-        </div >
+        </div>
     );
 };
 
-export default hero
+
+export default Hero;
+

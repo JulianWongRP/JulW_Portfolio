@@ -61,6 +61,47 @@
                 flex-direction: column;
                 gap: 30px;
 
+                
+
+                h2 {
+                    font-size: 72px;
+                    text-shadow:
+                        0 0 3px #fff,
+                        0 0 42px rgb(76, 0, 255),
+                        
+                }
+
+                p {
+                    color: grey;
+                    font-size: 20px;
+                }
+
+                
+            }
+        }
+
+        .wrapper2 {
+            max-width: 1366px;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            
+        
+
+            
+
+            .textContainer {
+                flex: 1; // Adjust the layout for the text container
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                
+                
+
 
 
                 h2 {
@@ -77,6 +118,21 @@
                 }
 
                 
+            }
+
+            .flexing{
+                position: relative;
+                    
+                right: 1rem;
+
+                
+
+                button{
+                    border-radius: 10rem;
+                    padding: 1rem;
+                    background-color: orange;
+                    cursor: pointer;
+                }
             }
         }
     }
