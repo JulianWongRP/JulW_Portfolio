@@ -1,0 +1,123 @@
+.id1 {
+    .naiButton {
+        position: fixed;
+    }
+
+    .IndvTemplate {
+        .container {
+
+            .allprojbutton{
+                position: fixed;
+                right: 1rem;
+                bottom: 1rem;
+
+                button{
+                    padding: 1rem;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    background-color: orange;
+                    cursor: pointer;
+                }
+            }
+
+            .homeButton{
+                position: fixed;
+                right: 1rem;
+                top: 1rem;
+
+                button{
+                    padding: 1rem;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    background-color: rgb(167, 107, 226);
+                    color: white;
+                    font-size: medium;
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+            }
+            .content {
+                position: relative;
+                right: -17rem;
+                max-width: 130vh;
+                max-height: 30rem;
+
+                .gifContainer {
+                    text-align: center;
+
+                    img {
+                        width: 130vh;
+                        height: 30rem;
+                        border: 1px solid white;
+                        border-bottom-left-radius: 50px;
+                        border-bottom-right-radius: 50px;
+                        object-fit: cover;
+                    }
+
+                    p {
+                        position: relative;
+                        top: -6rem;
+                        right: 7rem;
+                        color: rgb(167, 107, 226);
+                        font-size: 60px;
+                        font-weight: bold;
+                        text-shadow:
+                            1px 0 0px #fff,
+                            0 0 42px rgb(76, 0, 255);
+
+                    }
+
+                }
+
+                .contentBx {
+
+                    display: flex;
+
+                    .infoContainer {
+                        display: flex;
+                        align-items: center;
+
+                        white-space: nowrap;
+
+
+                        .content-key {
+                            font-size: 20px;
+
+                            white-space: nowrap;
+
+                            p {
+                                padding: 5px;
+                                color: rgb(167, 107, 226);
+                                font-weight: 700;
+                                font-weight: bold;
+                                text-shadow:
+                                    
+                                    0 0 42px rgb(76, 0, 255);
+                            }
+                        }
+
+                        .content-value {
+                            font-size: 20px;
+                            margin: 3rem;
+
+                            p{
+                                padding: 5px;
+                            }
+                        }
+                    }
+                    
+                    
+
+                }
+
+            }
+
+
+        }
+    }
+
+    
+
+    
+
+}
