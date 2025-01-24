@@ -51,8 +51,8 @@ const Dropdown = ({ navigateTo }) => {
                 <li onClick={() => handleClick('id1')}>Night Drive - Animation</li>
                 <li onClick={() => handleClick('id2')}>Escape Room - VR Game</li>
                 <li onClick={() => handleClick('id3')}>Workout Calendar - App</li>
-                <li onClick={() => handleClick('id4')}>Placeholder</li> 
-                <li onClick={() => handleClick('id5')}>Placeholder</li>
+                <li onClick={() => handleClick('id4')}>Pokemon MobileApp</li> 
+                <li onClick={() => handleClick('id5')}>Travel List - Web App</li>
                 <div style={{color: "black"}}>----------------------</div>
                 <li onClick={() => handleClick('allprojects')} style={{color: "orange", fontWeight: "1000", fontSize: "20px"}}>All Projects</li>
             </ul>

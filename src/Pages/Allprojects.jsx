@@ -21,15 +21,15 @@ const Allprojects = ({ navigateTo }) => {
         {
             id: 'id3',
             image: 'websitehomepage.png',
-            title: 'Application',
+            title: 'Web Application',
             subtitle: 'Workout Calendar',
             action: () => navigateTo('id3'),
         },
         {
             id: 'id4',
-            image: 'websitehomepage.png',
-            title: 'Application',
-            subtitle: 'Workout Calendar',
+            image: 'MA1.png',
+            title: 'Mobile Application',
+            subtitle: 'Pokemon Index',
             action: () => navigateTo('id4'),
         },
         {
