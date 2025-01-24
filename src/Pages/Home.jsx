@@ -1,10 +1,10 @@
 import React, { useState } from "react"; // Make sure 'useState' is imported
 import "../Pages/Home.scss";
-import NavBar from "../Components/navbars/navbar";
+import NavBar from "../Components/Navbars/navbar";
 import Hero from "../Components/hero/hero";
-import Parallex from "../Components/parallex/parallex";
-import About from "../Components/About/aboutMe";
-import Portfolio from "../Components/Portfolio/portfolio";
+import Parallex from "../Components/Parallex/Parallex";
+import About from "../Components/About/AboutMe";
+import Portfolio from "../Components/Portfolio/Portfolio";
 import Contact from "../Components/Contact/Contact";
 
 

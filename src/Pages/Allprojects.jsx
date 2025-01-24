@@ -25,6 +25,20 @@ const Allprojects = ({ navigateTo }) => {
             subtitle: 'Workout Calendar',
             action: () => navigateTo('id3'),
         },
+        {
+            id: 'id4',
+            image: 'websitehomepage.png',
+            title: 'Application',
+            subtitle: 'Workout Calendar',
+            action: () => navigateTo('id4'),
+        },
+        {
+            id: 'id5',
+            image: 'websitehomepage.png',
+            title: 'Application',
+            subtitle: 'Workout Calendar',
+            action: () => navigateTo('id5'),
+        },
 
     ];
 
