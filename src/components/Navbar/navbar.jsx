@@ -1,7 +1,7 @@
 import React from 'react';
 import "./navbar.scss";
 import { motion } from 'framer-motion';
-import Sidebar from '../sidebar/Sidebar';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Navbar = ({ setOpenProjects }) => {
   return (
