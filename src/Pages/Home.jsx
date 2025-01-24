@@ -1,6 +1,6 @@
 import React, { useState } from "react"; // Make sure 'useState' is imported
 import "../Pages/Home.scss";
-import NavBar from '../Components/Navbar/navbar';
+// import NavBar from '../Components/Navbar/navbar';
 import Hero from "../Components/hero/hero";
 import Parallex from "../components/parallex/Parallex";
 import About from "../components/about/AboutMe";
@@ -14,7 +14,7 @@ const Home = ({ navigateTo }) => {
     return (
         <div className="Home">
             <section id="Homepage">
-                <NavBar setOpenProjects={setOpenProjects} />
+                {/* <NavBar setOpenProjects={setOpenProjects} /> */}
                 <Hero openProjects={openProjects} navigateTo={navigateTo}/> {/* Passing openProjects correctly */}
             </section>
             <section id="About"><Parallex type="about" /></section>
