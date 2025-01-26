@@ -30,11 +30,13 @@ const Id3 = ({ navigateTo }) => {
                   <div className="content-key">
                     <p>CATEGORY:</p>
                     <p>LANGUAGE/TOOLS USED:</p>
+                    
                     <p>IMAGES:</p>
                   </div>
                   <div className="content-value">
                     <p>Web Design and Developement</p>
                     <p>Javascript, CSS</p>
+                    
                     <DemoButton images={galleryImages} />
                   </div>
 
@@ -52,6 +54,8 @@ const Id3 = ({ navigateTo }) => {
                   <br></br>
                   <br></br>
                   Through this project, I gained valuable experience in back-end development by working with SQL database. I also applied styling techniques to enhance the website's usability and make it more visually appealing.
+                  <br></br>
+                  <a href='https://github.com/JulianWongRP/Mini_Project_Code'>Github Repository</a>
                 </p>
                 
 

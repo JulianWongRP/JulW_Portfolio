@@ -28,11 +28,13 @@ const Id2 = ({ navigateTo }) => {
                   <div className="content-key">
                     <p>CATEGORY:</p>
                     <p>LANGUAGE/TOOLS USED:</p>
+                    <p>VIDEO:</p>
                     <p>IMAGES:</p>
                   </div>
                   <div className="content-value">
                     <p>Game Design</p>
                     <p>C#, Unity</p>
+                    <p><a href='https://youtu.be/EARvVLCNWjc'>Click for video</a></p>
                     <DemoButton images={galleryImages} />
                   </div>
 

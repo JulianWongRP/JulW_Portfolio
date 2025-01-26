@@ -30,11 +30,13 @@ const Id4 = ({ navigateTo }) => {
                                     <div className="content-key">
                                         <p>CATEGORY:</p>
                                         <p>LANGUAGE/TOOLS USED:</p>
+                                        <p>LIVE PAGE:</p>
                                         <p>IMAGES:</p>
                                     </div>
                                     <div className="content-value">
                                         <p>Web Design and Developement</p>
                                         <p>React, CSS</p>
+                                        <p><a href='https://julianwongrp.github.io/travel-list-app-2.0/'>Click for Page</a></p>
                                         <DemoButton images={galleryImages} />
                                     </div>
 
@@ -49,6 +51,8 @@ const Id4 = ({ navigateTo }) => {
                                     <br></br>
                                     <br></br>
                                     I also added some styles to give more usability and make it more visually appealing.
+                                    <br></br><br></br>
+                                    <a href='https://github.com/JulianWongRP/travel-list-app-2.0/'> Github Repository</a>
                                 </p>
                                 <br></br>
                                 <br></br>
