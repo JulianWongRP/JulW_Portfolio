@@ -52,10 +52,10 @@ const Contact = () => {
                     <h2>Location</h2>
                     <span>Singapore, SG</span>
                 </motion.div>
-                <motion.div className="item" variants={variants} key="resume">
+                {/* <motion.div className="item" variants={variants} key="resume">
                     <h2>Resume</h2>
                     <span><a href=''>Placeholder</a></span>
-                </motion.div>
+                </motion.div> */}
             </motion.div>
             <motion.div className="formContainer">
                 <motion.div className="phoneSvg"
