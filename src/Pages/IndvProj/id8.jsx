@@ -3,8 +3,8 @@ import './all.scss';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const Id4 = ({ navigateTo }) => {
-    const galleryImages = ["MA1.png", "MA2.png", "MA3.png"];
+const Id8 = ({ navigateTo }) => {
+    const galleryImages = ["SSapp1.png", "SSapp2.png", "SSkit1.png", "SSkit2.png"];
 
     return (
         <div className="id1">
@@ -21,22 +21,22 @@ const Id4 = ({ navigateTo }) => {
                         </div>
                         <div className="content">
                             <div className="gifContainer">
-                                <img alt="Mobile Pokemon App Gif" src="L6Submittion.gif
-                " />
-                                <p>Pokemon MobileApp</p>
+                                <img alt="StyleShop gif" src="C218CA3Vid.gif "
+                                />
+                                <p>StyleShop - UI Kit</p>
                             </div>
                             <div className="contentBx">
                                 <div className="infoContainer">
                                     <div className="content-key">
                                         <p>CATEGORY:</p>
                                         <p>LANGUAGE/TOOLS USED:</p>
-                                        <p>VIDEO:</p>
+                                        <p>LIVE PAGE:</p>
                                         <p>IMAGES:</p>
                                     </div>
                                     <div className="content-value">
-                                        <p>Mobile App Development</p>
-                                        <p>React-Native, Webstorm</p>
-                                        <p><a href='https://youtu.be/HGCgQmDMJC8'>Click for video</a></p>
+                                        <p>Figma UI kit (w/ Wireframe)</p>
+                                        <p>Figma</p>
+                                        <p><a href="https://www.figma.com/proto/ntnTy3gw3fnK7fgCtqYHZ5/23019734's-StyleShop?node-id=0-1&t=KxIkqLC731cEQoay-1">Click for Prototype</a></p>
                                         <DemoButton images={galleryImages} />
                                     </div>
 
@@ -44,19 +44,24 @@ const Id4 = ({ navigateTo }) => {
                             </div>
                             <div className="contentPara">
                                 <p>
-                                    This is a Pokemon Index Mobile Application, it helps to add in the pokemon of your choosing using this application and adding them into the index.
+                                    StyleShop is a centralized online shopping application that allows for users to purchase clothing.
                                     <br></br>
                                     <br></br>
-                                    Using React-Native (Javascript), I coded the application using CRUD (Create, Read, Update, Delete) to give functionality to the application.
+                                    It is currently a Wireframe will shows the general use of the application. I have also made a UI kit, this is so that when design the wireframe, it allows for easier use of interactions and components to form the page into a prototype.
                                     <br></br>
                                     <br></br>
-                                    I also added some styles to give more usability and make it more visually appealing.
                                     <br></br>
-                                    <a href='https://github.com/JulianWongRP/l6Submission'>Github Repository</a>
+                                    <a href="https://www.figma.com/design/ntnTy3gw3fnK7fgCtqYHZ5/23019734's-StyleShop?node-id=0-1&t=KxIkqLC731cEQoay-1"> Figma Wireframe + UI Kit</a>
+                                    <br></br>
+                                    <br></br>
+                                    <a href="https://youtu.be/Vwb8UbZ8i6c"> Figma Prototype Video</a>
+
+
                                 </p>
                                 <br></br>
                                 <br></br>
-                                
+                                <p>
+                                </p>
 
 
                             </div>
@@ -108,4 +113,4 @@ const DemoButton = ({ images }) => {
     );
 };
 
-export default Id4;
+export default Id8;

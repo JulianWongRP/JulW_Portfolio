@@ -3,8 +3,8 @@ import './all.scss';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const Id4 = ({ navigateTo }) => {
-    const galleryImages = ["MA1.png", "MA2.png", "MA3.png"];
+const Id7 = ({ navigateTo }) => {
+    const galleryImages = ["FGO1.png", "FGO2.png", 'FGO3.png'];
 
     return (
         <div className="id1">
@@ -21,9 +21,9 @@ const Id4 = ({ navigateTo }) => {
                         </div>
                         <div className="content">
                             <div className="gifContainer">
-                                <img alt="Mobile Pokemon App Gif" src="L6Submittion.gif
-                " />
-                                <p>Pokemon MobileApp</p>
+                                <img alt="Team-Selector" src="FGO1.png "
+                />
+                                <p>Team Selector - MobileApp</p>
                             </div>
                             <div className="contentBx">
                                 <div className="infoContainer">
@@ -35,8 +35,8 @@ const Id4 = ({ navigateTo }) => {
                                     </div>
                                     <div className="content-value">
                                         <p>Mobile App Development</p>
-                                        <p>React-Native, Webstorm</p>
-                                        <p><a href='https://youtu.be/HGCgQmDMJC8'>Click for video</a></p>
+                                        <p>react-native, Webstorm</p>
+                                        <p><a href="https://youtube.com/shorts/c8jF5Vm_hgc?feature=share">Click for video</a></p>
                                         <DemoButton images={galleryImages} />
                                     </div>
 
@@ -44,19 +44,20 @@ const Id4 = ({ navigateTo }) => {
                             </div>
                             <div className="contentPara">
                                 <p>
-                                    This is a Pokemon Index Mobile Application, it helps to add in the pokemon of your choosing using this application and adding them into the index.
+                                    This is a Team Selector Application for games, for now I have made it dor a game called "Fate Grand Order". THe main purpose of the application is to allow the user to select 3 character from the character datasource so that the user's team can be formed.
                                     <br></br>
                                     <br></br>
-                                    Using React-Native (Javascript), I coded the application using CRUD (Create, Read, Update, Delete) to give functionality to the application.
+                                    Using React-native, I have made create a datasource which stores different character data such as their name, class and image. Therefore if the user wants to see the available character and what characters to choose, the code will grab the data from the source and display to the user. 
                                     <br></br>
                                     <br></br>
                                     I also added some styles to give more usability and make it more visually appealing.
-                                    <br></br>
-                                    <a href='https://github.com/JulianWongRP/l6Submission'>Github Repository</a>
+                                    <br></br><br></br>
+                                    <a href="https://github.com/JulianWongRP/FGOTeamSelector"> Github Repository</a>
                                 </p>
                                 <br></br>
                                 <br></br>
-                                
+                                <p> 
+                                </p>
 
 
                             </div>
@@ -108,4 +109,4 @@ const DemoButton = ({ images }) => {
     );
 };
 
-export default Id4;
+export default Id7;

@@ -3,8 +3,8 @@ import './all.scss';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const Id4 = ({ navigateTo }) => {
-    const galleryImages = ["MA1.png", "MA2.png", "MA3.png"];
+const Id6 = ({ navigateTo }) => {
+    const galleryImages = ["NB1.png", "NB2.png","NB3.png","NB4.png","NB5.png"];
 
     return (
         <div className="id1">
@@ -21,42 +21,46 @@ const Id4 = ({ navigateTo }) => {
                         </div>
                         <div className="content">
                             <div className="gifContainer">
-                                <img alt="Mobile Pokemon App Gif" src="L6Submittion.gif
-                " />
-                                <p>Pokemon MobileApp</p>
+                                <img alt="Notebound Wireframe" src="NB1.png"
+                />
+                                <p>NoteBound - Figma</p>
                             </div>
                             <div className="contentBx">
                                 <div className="infoContainer">
                                     <div className="content-key">
                                         <p>CATEGORY:</p>
                                         <p>LANGUAGE/TOOLS USED:</p>
-                                        <p>VIDEO:</p>
+                                        <p>LIVE PAGE:</p>
                                         <p>IMAGES:</p>
                                     </div>
                                     <div className="content-value">
-                                        <p>Mobile App Development</p>
-                                        <p>React-Native, Webstorm</p>
-                                        <p><a href='https://youtu.be/HGCgQmDMJC8'>Click for video</a></p>
+                                        <p>Web Design</p>
+                                        <p>Figma</p>
+                                        <p><a href="https://www.figma.com/proto/a30bkZrrkUBRePUBetBgoo/NoteBound-Low-Fidelity-Wireframe?node-id=0-1&t=csEDeFpt91A6gUGJ-1">Click for prototype</a></p>
                                         <DemoButton images={galleryImages} />
                                     </div>
+                                  
 
                                 </div>
                             </div>
                             <div className="contentPara">
                                 <p>
-                                    This is a Pokemon Index Mobile Application, it helps to add in the pokemon of your choosing using this application and adding them into the index.
+                                    Notebound is a notetaking application for users to create tasks and notes to allow them to remind themselves of assignments that they need to complete or are upcoming.
                                     <br></br>
                                     <br></br>
-                                    Using React-Native (Javascript), I coded the application using CRUD (Create, Read, Update, Delete) to give functionality to the application.
+                                    Currently Notebound is made as a Figma Wireframe to demonstrate its functionality as an application. Implementing fundamentals of a note application together with other useful functions and purposes
+                                    <br></br>
+                                    <br></br><br></br>
+                                    <a href="https://www.figma.com/design/a30bkZrrkUBRePUBetBgoo/NoteBound-Low-Fidelity-Wireframe?node-id=0-1&t=ePiWZ3J9aDKsTQ2C-1"> Figma Wireframe Design Link</a>
                                     <br></br>
                                     <br></br>
-                                    I also added some styles to give more usability and make it more visually appealing.
-                                    <br></br>
-                                    <a href='https://github.com/JulianWongRP/l6Submission'>Github Repository</a>
+                                    <a href='https://youtube.com/shorts/lVeSIW-1sd0?feature=share'> Figma Prototype Video </a>
+
                                 </p>
                                 <br></br>
                                 <br></br>
-                                
+                                <p> 
+                                </p>
 
 
                             </div>
@@ -108,4 +112,4 @@ const DemoButton = ({ images }) => {
     );
 };
 
-export default Id4;
+export default Id6;

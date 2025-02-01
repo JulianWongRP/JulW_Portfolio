@@ -3,7 +3,7 @@ import './all.scss';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const Id4 = ({ navigateTo }) => {
+const Id5 = ({ navigateTo }) => {
     const galleryImages = ["travel-list1.png"];
 
     return (
@@ -109,4 +109,4 @@ const DemoButton = ({ images }) => {
     );
 };
 
-export default Id4;
+export default Id5;

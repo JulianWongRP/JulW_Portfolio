@@ -27,6 +27,11 @@
     gap: 10px;
 }
 
+.modal-content img {
+    max-height: 100vh; /* Limit height to 70% of the viewport height */
+    
+}
+
 .close-button {
     position: absolute;
     top: 10px;

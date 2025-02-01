@@ -39,6 +39,41 @@ const Allprojects = ({ navigateTo }) => {
             subtitle: 'Travel List',
             action: () => navigateTo('id5'),
         },
+        {
+            id: 'id6',
+            image: 'NB1.png',
+            title: 'Figma Wireframe:',
+            subtitle: 'Notebound',
+            action: () => navigateTo('id6'),
+        },
+        {
+            id: 'id7',
+            image: 'FGO1.png',
+            title: 'Mobile Application:',
+            subtitle: 'Team Selector',
+            action: () => navigateTo('id7'),
+        },
+        {
+            id: 'id8',
+            image: 'SSapp1.png',
+            title: 'Figma UI kit',
+            subtitle: 'Styleshop',
+            action: () => navigateTo('id8'),
+        },
+        {
+            id: 'id9',
+            image: 'BR1.png',
+            title: 'Blender',
+            subtitle: 'Low Polygon Room',
+            action: () => navigateTo('id9'),
+        },
+        {
+            id: 'id10',
+            image: 'Design1.png',
+            title: 'Portfolio',
+            subtitle: 'General Design Prototype',
+            action: () => navigateTo('id10'),
+        },
 
     ];
 

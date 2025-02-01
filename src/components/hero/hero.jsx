@@ -48,13 +48,21 @@ const Dropdown = ({ navigateTo }) => {
     return (
         <div className='dropDownProject'>
             <ul>
-                <li onClick={() => handleClick('id1')}>Night Drive - Animation</li>
-                <li onClick={() => handleClick('id2')}>Escape Room - VR Game</li>
-                <li onClick={() => handleClick('id3')}>Workout Calendar - App</li>
-                <li onClick={() => handleClick('id4')}>Pokemon MobileApp</li> 
-                <li onClick={() => handleClick('id5')}>Travel List - Web App</li>
-                <div style={{color: "black"}}>----------------------</div>
-                <li onClick={() => handleClick('allprojects')} style={{color: "orange", fontWeight: "1000", fontSize: "20px"}}>All Projects</li>
+                <div className='scrolldown'>
+                    <li onClick={() => handleClick('id1')}>Night Drive - Animation</li>
+                    <li onClick={() => handleClick('id2')}>Escape Room - VR Game</li>
+                    <li onClick={() => handleClick('id3')}>Workout Calendar - App</li>
+                    <li onClick={() => handleClick('id4')}>Pokemon MobileApp</li>
+                    <li onClick={() => handleClick('id5')}>Travel List - Web App</li>
+                    <li onClick={() => handleClick('id6')}>Notebound - Figma Wireframe</li>
+                    <li onClick={() => handleClick('id7')}>Team Selector MobileApp</li>
+                    <li onClick={() => handleClick('id8')}>StyleShop - Figma UI kit</li>
+                    <li onClick={() => handleClick('id9')}>Low Polygon Room - Blender</li>
+                    <li onClick={() => handleClick('id10')}>General Design Prototype</li>
+
+                </div>
+                <div style={{ color: "black" }}>----------------------</div>
+                <li onClick={() => handleClick('allprojects')} style={{ color: "orange", fontWeight: "1000", fontSize: "20px" }}>All Projects</li>
             </ul>
         </div>
     );
@@ -62,7 +70,7 @@ const Dropdown = ({ navigateTo }) => {
 
 
 
-const Hero = ({ openProjects, navigateTo }) => { 
+const Hero = ({ openProjects, navigateTo }) => {
     return (
         <div className='hero'>
             <div className="wrapper">

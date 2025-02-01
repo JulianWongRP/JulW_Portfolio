@@ -62,8 +62,10 @@
                         font-size: 60px;
                         font-weight: bold;
                         text-shadow:
-                            1px 0 0px #fff,
+                            
                             0 0 42px rgb(76, 0, 255);
+                        
+                        
 
                     }
 
@@ -107,6 +109,12 @@
                             a{
                                 color: blue;
                             }
+
+                            a:hover{
+                                color: red;
+                            }
+
+                            
                         }
                     }
                     
@@ -122,6 +130,10 @@
 
     a{
         color: blue;
+    }
+
+    a:hover{
+        color: red;
     }
 
     
