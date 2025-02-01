@@ -36,7 +36,7 @@ const Id8 = ({ navigateTo }) => {
                                     <div className="content-value">
                                         <p>Figma UI kit (w/ Wireframe).</p>
                                         <p>Figma</p>
-                                        <p><a href="">Click for Prototype</a></p>
+                                        <p><a href="https://www.figma.com/proto/ntnTy3gw3fnK7fgCtqYHZ5/23019734's-StyleShop?node-id=20-12&starting-point-node-id=20%3A12&t=7CekEAAIZeLDR6Ix-1">Click for Prototype</a></p>
                                         <DemoButton images={galleryImages} />
                                     </div>
 
