@@ -3,9 +3,10 @@ import "./navbar.scss";
 import { motion } from 'framer-motion';
 import Sidebar from '../sidebar/Sidebar';
 
-const Navbar = ({ setOpenProjects }) => {
+
+const Navbar = ({ setOpenProjects }) => { {/* Prop from Home.jsx*/}
   return (
-    <div className='navbar'>
+    <div className='navbar'> {/**/}
       {/* Sidebar */}
       <Sidebar />
       <div className="wrapper">
@@ -22,7 +23,7 @@ const Navbar = ({ setOpenProjects }) => {
           <a href='https://www.instagram.com/jul_wyh/'><img src="instagram.png" alt="instagram" /></a>
           <a href='https://github.com/JulianWongRP'><img src="githubs.png" alt="github" /></a>
 
-          <button onClick={() => setOpenProjects((prev) => !prev)}>View Projects</button>
+          <button onClick={() => setOpenProjects((prev) => !prev)}>View Projects</button> {/* Opens the Projects Box*/}
           
         </div>
       </div>

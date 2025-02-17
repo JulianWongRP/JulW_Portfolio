@@ -39,7 +39,9 @@ const sliderVariants = {
     },
 };
 
-const Dropdown = ({ navigateTo }) => {
+
+//navigateTo prop for under App.js
+const Dropdown = ({ navigateTo }) => { 
     const handleClick = (id) => {
         console.log(`Navigating to ${id}`);
         navigateTo(id);

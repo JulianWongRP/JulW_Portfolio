@@ -23,7 +23,7 @@ const App = () => {
     return (
         <div>
             <Cursor/>
-            {currentPage === 'home' && <Home navigateTo={navigateTo} />}
+            {currentPage === 'home' && <Home navigateTo={navigateTo} />}  {/* If home page, will navigate to Home*/}
             {currentPage === 'allprojects' && <Allprojects navigateTo={navigateTo} />}
             {currentPage === 'id1' && <Id1 navigateTo={navigateTo}/>}
             {currentPage === 'id2' && <Id2 navigateTo={navigateTo}/>}

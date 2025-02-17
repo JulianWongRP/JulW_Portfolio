@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import "./Parallex.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const Parallex = ({ type }) => {
+const Parallex = ({ type }) => {   
     // Reference to the main div
     const ref = useRef();
 

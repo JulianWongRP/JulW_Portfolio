@@ -3,7 +3,10 @@ import './portfolio.scss';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import DemoButton from './DemoButton';
 
-const items = [
+
+
+{/* Array of Featured Portfolio items*/}
+const items = [  
     {
         id: 1,
         title: "Workout Calendar Application",
@@ -30,7 +33,7 @@ const items = [
 const Single = ({ item}) => {
     const ref = useRef();
     const { scrollYProgress } = useScroll({ target: ref });
-    const y = useTransform(scrollYProgress, [0, 1], [-100, 100]);
+    const y = useTransform(scrollYProgress, [0, 1], [-100, 100]);   //Progress Bar
 
     return (
         <section>
