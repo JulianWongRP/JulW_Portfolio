@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';   // Import Carousel from the library
 import 'react-responsive-carousel/lib/styles/carousel.min.css';  // Import Carousel's default styles
-import './Demobutton.scss';
+import './Demobutton.css';
 
 const DemoButton = ({ images }) => {   {/* Accepts an array of images as a prop*/}
     const [showModal, setShowModal] = useState(false);  {/* state variable to track the modal is visiable*/}
