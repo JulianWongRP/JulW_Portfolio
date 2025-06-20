@@ -23,7 +23,7 @@ const Id10 = ({ navigateTo }) => {
                             <div className="gifContainer">
                                 <img alt="Prototype Portfolio" src="AI1.jpg"
                 />
-                                <p>ActiveIcon - Figma Prototype</p>
+                                <p>ActiveIcon - Figma Proto</p>
                             </div>
                             <div className="contentBx">
                                 <div className="infoContainer">
