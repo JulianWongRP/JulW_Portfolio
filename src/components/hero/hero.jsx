@@ -61,6 +61,8 @@ const Dropdown = ({ navigateTo }) => {
                     <li onClick={() => handleClick('id8')}>StyleShop - Figma UI kit</li>
                     <li onClick={() => handleClick('id9')}>Low Polygon Room - Blender</li>
                     <li onClick={() => handleClick('id10')}>General Design Prototype</li>
+                    <li onClick={() => handleClick('id11')}>ActiveIcon - Figma Wireframe</li>
+                    
 
                 </div>
                 <div style={{ color: "black" }}>----------------------</div>

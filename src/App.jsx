@@ -12,6 +12,7 @@ import Id7 from './Pages/IndvProj/id7';
 import Id8 from './Pages/IndvProj/id8';
 import Id9 from './Pages/IndvProj/id9';
 import Id10 from './Pages/IndvProj/id10';
+import Id11 from './Pages/IndvProj/id11';
 
 const App = () => {
     const [currentPage, setCurrentPage] = useState('home'); // 'home' or 'allprojects'
@@ -35,6 +36,7 @@ const App = () => {
             {currentPage === 'id8' && <Id8 navigateTo={navigateTo}/>}
             {currentPage === 'id9' && <Id9 navigateTo={navigateTo}/>}
             {currentPage === 'id10' && <Id10 navigateTo={navigateTo}/>}
+            {currentPage === 'id11' && <Id11 navigateTo={navigateTo}/>}
         </div>
     );
 };

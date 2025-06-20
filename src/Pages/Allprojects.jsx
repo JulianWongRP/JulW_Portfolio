@@ -74,6 +74,14 @@ const Allprojects = ({ navigateTo }) => {
             subtitle: 'General Design Prototype',
             action: () => navigateTo('id10'),
         },
+        {
+            id: 'id11',
+            image: 'ActiveIcon1.png',
+            title: 'ActiveIcon',
+            subtitle: 'Figma Wireframe',
+            action: () => navigateTo('id11'),
+        },
+        
 
     ];
 
