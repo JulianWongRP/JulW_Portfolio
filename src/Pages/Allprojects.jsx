@@ -81,6 +81,13 @@ const Allprojects = ({ navigateTo }) => {
             subtitle: 'Figma Wireframe',
             action: () => navigateTo('id11'),
         },
+        {
+            id: 'id12',
+            image: 'RM_1.png',
+            title: 'Recipe Manager',
+            subtitle: 'Web Application',
+            action: () => navigateTo('id12'),
+        }
         
 
     ];

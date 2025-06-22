@@ -62,6 +62,7 @@ const Dropdown = ({ navigateTo }) => {
                     <li onClick={() => handleClick('id9')}>Low Polygon Room - Blender</li>
                     <li onClick={() => handleClick('id10')}>General Design Prototype</li>
                     <li onClick={() => handleClick('id11')}>ActiveIcon - Figma Wireframe</li>
+                    <li onClick={() => handleClick('id12')}>Recipe Manager - Web App</li>
                     
 
                 </div>
